@@ -28,3 +28,5 @@
 1|trim|다 듬 다
 3|crouch|쪼 그 리 고 앉 다
 2|proclaim|공 언 하 다, 선 포 하 다
+1| bird|새
+2| door|문
