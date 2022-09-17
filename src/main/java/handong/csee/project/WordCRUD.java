@@ -1,8 +1,5 @@
 package handong.csee.project;
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class WordCRUD implements ICRUD{
@@ -126,10 +123,22 @@ public class WordCRUD implements ICRUD{
                 count++;
             }
                 br.close();
+            System.out.println("==> " + count +"개 로딩 완료!!!");
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        public void saveFile() {
+            try {
+                PrintWriter pr = new PrintWriter(new FileWriter("text.txt"));
+                pr.close();
+
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        }
     }
+
 }
 
 
