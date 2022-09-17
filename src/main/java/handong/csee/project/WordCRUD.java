@@ -37,9 +37,9 @@ public class WordCRUD implements ICRUD{
 
         System.out.print("==> 정말로 삭제하실래요?(Y/n) ");
         String ans = s.next();
-        if(ans.equalsIgnoreCase("Y")){
+        if(ans.equalsIgnoreCase("y")){
             list.remove((int)idlist.get(id-1));
-            System.out.println("단어가 삭제었습니다. ");
+            System.out.println("단어가 삭제되었습니다. ");
         }
         else
             System.out.println("취소 되었습니다. ");
