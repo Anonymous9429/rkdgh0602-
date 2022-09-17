@@ -1,12 +1,16 @@
 package handong.csee.project;
+import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 public class WordCRUD implements ICRUD{
     ArrayList<Word> list;
 
-
-
     Scanner s;
+    final String fname = "Dictionary.txt";
+
     WordCRUD(Scanner s){
         list = new ArrayList<>();
         this.s = s;
@@ -103,7 +107,20 @@ public class WordCRUD implements ICRUD{
         word.setMeaning(meaning);
         System.out.println("단어가 수정되었습니다. ");
         }
+
+    public void loadFile() {
+        try {
+            BufferedReader br = new BufferedReader(new FileReader(fname));
+            String line;
+            line = br.readLine();
+            br.close();
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
+}
 
 
 

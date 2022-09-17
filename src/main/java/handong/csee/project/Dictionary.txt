@@ -1,0 +1,30 @@
+ 1 *** superintendent 관 리 자, 감 독 관
+ 2 * electric 전 기 의, 전 기 를 생 산 하 는
+ 3 ** equipment 장 비, 용 품
+ 4 * pole 기 둥, 장 대
+ 5 * formerly 이 전 에, 예 전 에
+ 6 * transfer 옮 기 다, 이 동 하 다
+ 7 ** executive 경 영 간 부, 임 원
+ 8 * assure 안 심 시 키 다, 확 신 시 키 다
+ 9 ** embarrassment 당 황, 난 처 함
+ 10 ** publicity 명 성, 평 판, 널 리 알 려 짐, 공 표
+ 11 *** subordinate 부 하 의, 하 급 자 의
+ 12 ** utility 공 익 사 업 ( 체), 유 용 성
+ 13 * lone 혼 자 인, 단 독 의, 외 딴
+ 14 * glance 흘 긋 보 다, 대 강 훑 어 보 다
+ 15 ** conscious 의 식 하 는, 자 각 하 는
+ 16 ** overkill 지 나 침, 과 잉
+ 17 ** stroll 거 닐 다, 산 책 하 다
+ 18 * stock 주 식, 재 고
+ 19 ** eye-opener 눈 이 휘 둥 그 레 질 만 한 사 건, 놀 라 운 경 험
+ 20 * graceful 우 아 한
+ 21 ** seagull 갈 매 기
+ 22 * tightly 단 단 히
+ 23 ** webbed 물 갈 퀴 가 있 는
+ 24 * thoughtlessly 생 각 없 이
+ 25 * discard 버 리 다
+ 26 * unfortunate 불 운 한
+ 27 * branch 나 뭇 가 지
+ 28 * trim 다 듬 다
+ 29 *** crouch 쪼 그 리 고 앉 다
+ 30 ** proclaim 공 언 하 다, 선 포 하 다
