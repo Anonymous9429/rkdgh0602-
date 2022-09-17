@@ -126,11 +126,8 @@ public class WordCRUD implements ICRUD{
                 count++;
             }
                 br.close();
-
-        } catch (FileNotFoundException e) {
-            throw new RuntimeException(e);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
         }
     }
 }
