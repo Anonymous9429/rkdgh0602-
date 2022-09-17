@@ -13,7 +13,6 @@ public class Word {
             this.level=level;
             this.word=word;
             this.meaning=meaning;
-
         }
         public int getId() {
             return id;

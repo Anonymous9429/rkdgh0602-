@@ -1,7 +1,5 @@
 package handong.csee.project;
-
 import java.util.Scanner;
-
 public class WordManager {
     Scanner s = new Scanner(System.in);
     WordCRUD wordCRUD;
@@ -33,13 +31,15 @@ public class WordManager {
                 System.out.print("프로그램 종료! 다음에 만나요~");
                 break;
             }
-            if (menu == 1) {
+            else if (menu == 1) {
                 wordCRUD.listAll();
             }
-            if (menu == 4) {
+            else if (menu == 4) {
                 wordCRUD.addWord();
             }
-
+            else if(menu == 5){
+                wordCRUD.updateItem();
+            }
 
         }
     }
